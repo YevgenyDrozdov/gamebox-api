@@ -1,4 +1,11 @@
 package com.epam.jmp.gamebox;
 
-public interface View {
+public class View {
+
+    private String name;
+
+    public View(String viewName) {
+        name = viewName;
+    }
+
 }
