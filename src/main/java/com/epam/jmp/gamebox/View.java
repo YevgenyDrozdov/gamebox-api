@@ -8,4 +8,7 @@ public class View {
         name = viewName;
     }
 
+    public String getName() {
+        return name;
+    }
 }
